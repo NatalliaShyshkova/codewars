@@ -4,3 +4,5 @@
 function removeExclamationMarks(s) {
     return s.replace(/[!]/gi, '');
 }
+
+console.log(removeExclamationMarks('map!'))
